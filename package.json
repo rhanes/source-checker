@@ -1,0 +1,27 @@
+{
+  "name": "source-checker",
+  "version": "1.0.0",
+  "description": "Simple polling tool that will poll a configured endpoint and detect/notify when a change is detected",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nyc mocha test/**/*tests.js --reporter spec",
+    "lint": "eslint 'src/**/*.js'"
+  },
+  "author": "Robert B Hanes",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/webhook": "^5.0.3",
+    "axios": "^0.19.2",
+    "git-diff": "^2.0.6"
+  },
+  "devDependencies": {
+    "assume": "^2.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "mocha": "^7.1.2",
+    "nyc": "^15.0.1",
+    "sinon": "^9.0.2"
+  }
+}
