@@ -1,6 +1,6 @@
 # Source Checker
 
-Source Checker is a simple polling tool that will poll a configured endpoint and detect/notify when a change is detected. Slack notifications can be configured by providing a webhook. Assets with diffs are saved to disk. 
+Source Checker is a simple polling tool that will poll a configured endpoint and detect/notify when a change is detected. Slack notifications can be configured by providing a webhook. Assets with diffs are saved to disk.
 
 This tool is intended to be used to detect changes in assets supplied by 3rd party sources to your project and provide the source code to be able to diff check the differences.
 
@@ -11,6 +11,7 @@ This tool is intended to be used to detect changes in assets supplied by 3rd par
 | interval    | A number in milliseconds to poll the monitored url |
 | timeout     | A number in milliseconds to stop polling
 | slack  | Object containing slack configuration parameters |
+
 
 Providing configuration is optional. If a config is not provided, polling will default to once every minute and poll until the application is terminated.
 
