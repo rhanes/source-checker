@@ -18,7 +18,7 @@ Providing configuration is optional. If a config is not provided, polling will d
 ## Example Usage
 
 ```javascript
-const 'sourceChecker' = require('source-checker');
+const sourceChecker = require('source-checker');
 
 // poll every 30 seconds
 // stop polling after 1 hour
