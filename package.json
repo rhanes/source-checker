@@ -1,6 +1,6 @@
 {
   "name": "source-checker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple polling tool that will poll a configured endpoint and detect/notify when a change is detected",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,10 @@
   },
   "author": "Robert B Hanes",
   "license": "ISC",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/rhanes/source-checker.git"
+    },
   "dependencies": {
     "@slack/webhook": "^5.0.3",
     "axios": "^0.19.2",
