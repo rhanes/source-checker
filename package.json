@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@slack/webhook": "^5.0.3",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "git-diff": "^2.0.6"
   },
   "devDependencies": {
